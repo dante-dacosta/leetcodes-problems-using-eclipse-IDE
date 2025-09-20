@@ -5,11 +5,11 @@ public class Solution {
 		int number = x;
 		int reversedX = 0;
 		
-		//To reverse number without turning it into a string
+		// To reverse number without turning it into a string
 		while(number > 0) {
-			//Reversed number * 10 moves the digit one unit to the left leaving space for the next digit resulting of number % 10
+			// Reversed number * 10 moves the digit one unit to the left leaving space for the next digit resulting of number % 10
 			reversedX = (reversedX * 10) + (number % 10);
-			//Removes the right digit from the number
+			// Removes the right digit from the number
 			number = number /10;
 		}
 			
